@@ -4,8 +4,8 @@ import { Zap, Mail, Phone, MapPin } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground">
-      <div className="container-max section-padding py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="container-max px-4 py-10 sm:px-6 md:px-12 lg:px-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 font-bold text-xl mb-3">
